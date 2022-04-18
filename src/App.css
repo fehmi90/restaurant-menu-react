@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+
+button{
+    background-color: aliceblue;
+    padding: 10px 15px;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    margin: 0px;
+}
+.home{
+    color:#fff;
+    min-height: 500px;
+    background: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.footer{
+
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    clear: both;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.container{
+    width: 1200px;
+    margin: 6% auto;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+.boxitem{
+
+    width: 30%;
+    margin-top: 5%;
+    float: left;
+    padding:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxitem img{
+    max-width: 100%;
+}
+
+.Price_menu{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1;
+    background: #9b040c;
+    width: fit-content;
+    padding: 2px 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
 }
